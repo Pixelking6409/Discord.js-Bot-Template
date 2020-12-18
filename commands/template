@@ -1,0 +1,14 @@
+const Discord = require("discord.js")
+//other modules
+
+module.exports = {
+    name: "Name of command",
+    args: true,
+    usage: "How to use the command",
+    description: "description",
+    cooldown: "A number",
+
+    run (client, message, args) {
+        //code
+    }
+}
